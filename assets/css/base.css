@@ -1,0 +1,59 @@
+:root {
+    --text-primary: #F1A021;
+    --text-black-50: rgba(0, 0, 0, 0.5);
+    --text-white: #fff;
+    --text-black: #000;
+    --text-sub-content: #747578; 
+}
+
+html {
+    margin: auto;
+}
+
+.wide {
+    max-width: 1300px;
+    /* margin: auto; */
+}
+
+.mt-2r {
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .mt-2r {
+        margin-top: 2rem;
+    }
+
+    .contact-form {
+        margin-right: 1.5rem;
+    }
+    
+    .contact-inf {
+        margin-left: 1.5rem;
+    }
+
+
+}
+
+.sub-dash {
+    font-size: 14px;
+    color: #604E14;
+}
+
+.sub-dash i {
+    color: #000;
+}
+
+.top-heading {
+    color: var(--text-black);
+    font-size: 48px;
+}
+
+.top-heading span {
+    color: var(--text-primary);
+}
+
+.sub-text {
+    color: var(--text-sub-content);
+    font-size: 1rem;
+}
